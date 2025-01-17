@@ -85,31 +85,30 @@ main {
         line-height: 75px;
         letter-spacing: 0%;
 
-  }
-  .banner-discription {
-
+    }
+    .banner-discription {
   }
   /* .banner-content area style */
   .banner-content{
-    max-width: 850px;
+      max-width: 850px;
     margin: 0 auto ;
-  text-align: center;
+    text-align: center;
     margin-bottom: 40px;
-  }
-  .banner-tamge {
+}
+.banner-tamge {
     width: 100%;
-  }
+}
 
-  /* tames */
-  .team-img-container {
+/* tames */
+.team-img-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
-  }
-  .teams  {
+}
+.teams  {
     align-items: center;
     gap: 50px;
-  }
+}
 
 .our_futures{
     
@@ -119,6 +118,36 @@ main {
 #qiuck-list {
     font-weight: 500;   
 }
+
+/* future section style */
+.future-title , .future-card {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+}
+.futures{
+    gap: 140px;
+    display: flex;
+    margin-top: 100px;
+}
+.future-card{
+    padding: 30px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+    border-radius: 8px ;
+}
+/* btn area style */
+Experience{
+    font-size: 15px;
+}
+
+
+#future-section-title {
+    border-left: 5px solid rgb(255, 144, 14);
+    padding-left: 20PX;
+}
+
 /* some fact related style */
 .fact-container{
     display: grid;
@@ -161,6 +190,8 @@ main {
     filter: grayscale(100%);
 }
 
+
+/*  future area */
 
 
 
