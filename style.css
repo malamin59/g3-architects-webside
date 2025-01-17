@@ -16,7 +16,7 @@ main > section{
     font-weight: 700;
 }
 .btn-primary {
-    background-color: rgb(255, 144, 14);
+    background-color: #ff900e;
     color: white;
     padding: 20px 25px;
     font-size: 1.5rem;
@@ -117,8 +117,53 @@ main {
     max-width: 530px;
 }
 #qiuck-list {
-    font-weight: 500;
+    font-weight: 500;   
 }
+/* some fact related style */
+.fact-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.fact-card {
+    border: 1px solid #ff900e;
+    width: 200px;
+    height: 180px;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.fact-number {
+   font-size: 1.2rem;
+   font-weight:600 ;
+   margin-top: 5;
+   margin-bottom: 10px;
+}
+.fact-name {
+    font-size: 1em;
+    margin-top: 10px;
+}
+.fact-discription{
+    max-width: 540px;
+}
+
+.sponsor-info {
+    max-width: 540px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.sponsor-companies{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);    
+}
+.sponsor-companies img {
+    filter: grayscale(100%);
+}
+
+
+
+
   /*  Responsive Media Query */
 
 
@@ -130,14 +175,25 @@ main {
         flex-direction: column;
     }
   
-    .team-img-container{
-        grid-template-columns: repeat(1, 1fr);
+    .team-img-container,
+    .fact-container,
+    .sponsor-companies 
+    {
+        grid-template-columns: 1fr;
     }
-
-    .our_futures {
+.fact-container {
+    justify-items: center;
+    gap: 24px;
+}
+.sponsor-companies {
+  justify-items: center;
+  gap: 30px;
+}
+.our_futures {
         margin-left: 20px;
     }
-
+    
+    
   }
   /*  */
   @media screen and (min-width: 576px) and ( max-width:996px) {
@@ -147,6 +203,12 @@ main {
     }
   .our_futures {
     margin: 50px auto;
+  }
+  .sponsor-companies,
+  .fact-container
+  {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
   }
 
 
