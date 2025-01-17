@@ -1,0 +1,145 @@
+.work-sans-font {
+  font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+/*  shared style */
+.display-flex {
+    display: flex;
+}
+main > section{
+    margin-top: 130px;
+}
+.btn-primary {
+    background-color: rgb(255, 144, 14);
+    color: white;
+    padding: 20px 25px;
+    font-size: 1.5rem;
+    border-radius: 8px;
+    border: none;
+    font-weight: 600;
+}
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+/* dark 2 */
+.text-gray{
+    color: #424242;
+}
+/* dark 3 */
+.text-light-gray {
+    color: #727272;
+}
+.br-light {
+    background: rgba(255, 144, 14, 0.1);
+}
+.text-primary{
+    color: rgb(255, 144, 14);
+}
+
+
+/* header style */
+
+
+
+
+
+/* navbar related styles */
+.brand{
+    font-weight: 700;
+    font-size: 2rem;
+}
+.navbar{
+   justify-content: space-between;
+   align-items: center;
+}
+.nav-items{
+    list-style: none;
+    margin-right: 30px;
+}
+.nav-link {
+    text-decoration: none;
+    font-weight: 500px;
+}
+.navbar ,
+ .banner{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+/*  banner area style */
+.banner {
+
+}
+/* .banner img {
+    width: 100%;
+} */
+  .banner-title {
+   font-size: 4rem;
+   font-weight: 700;
+   line-height: 75px;
+   letter-spacing: 0%;
+
+  }
+  .banner-discription {
+
+  }
+  /* .banner-content area style */
+  .banner-content{
+    max-width: 850px;
+    margin: 0 auto ;
+  text-align: center;
+    margin-bottom: 40px;
+  }
+  .banner-tamge {
+    width: 100%;
+  }
+
+  /* tames */
+  .team-img-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  .teams  {
+    align-items: center;
+    gap: 50px;
+  }
+
+.our_futures{
+    
+    margin-left: 130px;
+    max-width: 530px;
+}
+.futures-title {
+    font-size: 2.7rem;
+    font-weight: 700;
+}
+#qiuck-list {
+    font-weight: 500;
+}
+  /*  Responsive Media Query */
+
+
+
+  @media screen and (max-width: 576px) {
+ .navbar,
+ .nav-links,
+ .teams{
+        flex-direction: column;
+    }
+  
+    .team-img-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .our_futures {
+        margin-left: 20px;
+    }
+
+  }
+  /*  */
+  /* @media screen {
+    
+  } */
