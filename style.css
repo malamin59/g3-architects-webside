@@ -76,9 +76,7 @@ main {
 .banner {
     
 }
-/* .banner img {
-    width: 100%;
-    } */
+
     .banner-title {
         font-size: 4rem;
         font-weight: 700;
@@ -131,15 +129,12 @@ main {
     gap: 140px;
     display: flex;
     margin-top: 100px;
+    max-width: 1200px;
 }
 .future-card{
     padding: 30px;
     box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
     border-radius: 8px ;
-}
-/* btn area style */
-Experience{
-    font-size: 15px;
 }
 
 
@@ -152,6 +147,22 @@ Experience{
 .fact-container{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+}
+
+.btn-primary , .Year {
+    /* width: 500px; */
+    padding: 30px 25px;
+    font-size: 30px;
+}
+.btn-primary, span {
+  margin-top: -70px;
+  margin-left: -40px;
+}
+.btn-primary,.Experience{
+    font-size: 20px;
+}
+.btn-primary , .Year {
+    font-size: 50px;
 }
 .fact-card {
     border: 1px solid #ff900e;
@@ -223,7 +234,16 @@ Experience{
 .our_futures {
         margin-left: 20px;
     }
-    
+    .futures {
+        flex-direction: column;
+    }
+    .futures img {
+        max-width: 100%;
+    }
+    .btn-primary, span {
+        margin-top: 0px;
+        margin-left: 0px;
+      }
     
   }
   /*  */
